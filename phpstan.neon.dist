@@ -1,0 +1,10 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    paths:
+        - src
+    level: 8
+    tmpDir: /tmp/data-health-filament-phpstan
+    parallel:
+        maximumNumberOfProcesses: 1
